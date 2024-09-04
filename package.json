@@ -1,0 +1,16 @@
+{
+  "name": "shop-cypress-bdd-poc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "npx cypress open",
+    "cy:run": "npx cypress run"
+  },
+  "description": "Cypress poc with cucumber bdd for Amazon cart functionaility",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^20.1.2",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}
